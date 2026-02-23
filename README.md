@@ -1,1 +1,0 @@
-# 81346-mobile-app-v2-newsletter-redirect
