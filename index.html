@@ -7,10 +7,7 @@
 <body>
   <p>Opening app...</p>
   <script>
-    // Try to open the app
     window.location.href = 'rds81346mobileappv2://newsletter-success';
-    
-    // Fallback: if app doesn't open in 2 seconds, show a button
     setTimeout(function() {
       document.body.innerHTML = '<p>If the app did not open, <a href="rds81346mobileappv2://newsletter-success">tap here</a></p>';
     }, 2000);
